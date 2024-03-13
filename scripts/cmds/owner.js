@@ -23,7 +23,7 @@ module.exports = {
 
   onStart: async function ({ event, message, threadsData, usersData, api, commandName, role }) {
     // Get the owner's ID from the config file or wherever it's stored
-    const ownerId = "100079402482429";
+    const ownerId = "61551417118451";
 
     // Check if the sender is the owner
     if (event.senderID === ownerId) {
